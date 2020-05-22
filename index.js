@@ -15,7 +15,7 @@ const init = async () => {
         path: '/',
         handler: (request, h) => {
             var data = request.payload.data
-            data['0'].forEach(level_0 =>{
+            data['0'].forEach(level_0 => {
                 data['1'].forEach(level_1 => {
                     data['2'].forEach(level_2 => {
                         if(level_2.parent_id===level_1.id)
